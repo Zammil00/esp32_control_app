@@ -8,8 +8,8 @@ class ChartWidget extends StatelessWidget {
   Widget build(BuildContext context) {
     return LineChart(
       LineChartData(
-        gridData: FlGridData(show: true),
-        titlesData: FlTitlesData(show: true),
+        gridData: const FlGridData(show: true),
+        titlesData: const FlTitlesData(show: true),
         borderData: FlBorderData(show: true),
         lineBarsData: [
           LineChartBarData(
@@ -24,7 +24,7 @@ class ChartWidget extends StatelessWidget {
             isCurved: true,
             color: Theme.of(context).primaryColorLight,
             barWidth: 5,
-            dotData: FlDotData(show: false),
+            dotData: const FlDotData(show: false),
           ),
         ],
       ),
