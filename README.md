@@ -1,6 +1,6 @@
 # proyekesp
 
-A new Flutter project.
+Ini Adalah Aplikasi Android Ntuk Menghubungkan Dan Mengontrol Mikrokontroller ESP32
 
 ## Getting Started
 
